@@ -1,0 +1,39 @@
+body {
+    background: url(http://cliparts.co/cliparts/6iy/5GB/6iy5GBBnT.jpg) no-repeat 50% 20% fixed;
+    background-size: cover;
+    background-position: bottom;
+}
+.loginpage {
+    margin-left: 36%;
+}
+.loginpage input {
+    width: 44%;
+    font-size: 20px;
+    border-radius: 7px;
+    border: solid 2px #b400ff;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    opacity: .7;
+
+}
+.loginpage button {
+    margin-left: 15%;
+    margin-top: 1%;
+    width: 15%;
+    font-family: 'Roboto Slab', serif;
+    border: solid 1px #b400ff;
+    background-color: #b400ff;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    opacity: .7;
+}
+.loginpage button:hover {
+  transform: scale(1.1);
+}
+.loginpage h1 {
+    margin-left: -16%;
+    font-family: 'Roboto Slab', serif;
+    font-size: 90px;
+    margin-top: -80px;
+}

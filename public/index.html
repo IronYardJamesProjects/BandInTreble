@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="BandInTreble">
+
+<head>
+    <meta charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="main.css">
+    <title>Band In Treble</title>
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <li><a href="#login">Sign In</a></li>
+            <li><a href="#home">Homepage</a></li>
+            <li><a href="#available">Available Musicians</a></li>
+            <li><a href="#lookingfor">Looking for a Musician?</a></li>
+        </ul>
+    </nav>
+    <main ng-view></main>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
