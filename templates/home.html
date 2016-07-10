@@ -3,8 +3,8 @@
 <div class="bandmanager">
   <h2>I book gigs </h2>
   <h4>Tell us what type of musician you're looking for.</h4>
-    <select ng-click="bandManagerSelect()">
-    <option ng-load="bandmanager" value="leadGuitarist">Lead Guitarist</option>
+    <select ng-model="instrument">
+    <option value="leadGuitarist">Lead Guitarist</option>
     <option value="drummer" selected>Drummer</option>
     <option value="backupGuitarist">Backup Guitarist</option>
     <option value="leadGuitarist">Lead Guitarist</option>
@@ -14,22 +14,24 @@
     <option value="cowBellPlayer">Cowbell Player</option>
     <option value="pianist">Pianist</option>
   </select>
+  <button type="button" name="button" ng-click="bandManagerSelect()">Let's go!</button>
+
 
 </div>
 <div class="musician">
   <h2>I'm a musician </h2>
   <h4>Tell us what type of gig you're looking for.</h4>
-    <form action="" ng-click="musicianSelect()">
-    <input type="checkbox" value="leadGuitarist">Lead Guitarist
-    <input type="checkbox" value="drummer">Drummer
-    <input type="checkbox" value="backupGuitarist">Backup Guitarist
-    <input type="checkbox" value="leadGuitarist">Lead Guitarist
-    <input type="checkbox" value="backupSinger">Backup Singer
-    <input type="checkbox" value="bassist">Bassist
-    <input type="checkbox" value="tambourine">Tambourine
-    <input type="checkbox" value="cowBellPlayer">Cowbell Player
-    <input type="checkbox" value="pianist">Pianist
+    <form action="" >
+    <input ng-model="managers" type="checkbox" value="leadGuitarist">Lead Guitarist
+    <input ng-model="managers" type="checkbox" value="drummer">Drummer
+    <input ng-model="managers" type="checkbox" value="backupGuitarist">Backup Guitarist
+    <input ng-model="managers" type="checkbox" value="leadGuitarist">Lead Guitarist
+    <input ng-model="managers" type="checkbox" value="backupSinger">Backup Singer
+    <input ng-model="managers" type="checkbox" value="bassist">Bassist
+    <input ng-model="managers" type="checkbox" value="tambourine">Tambourine
+    <input ng-model="managers" type="checkbox" value="cowBellPlayer">Cowbell Player
+    <input ng-model="managers" type="checkbox" value="pianist">Pianist
     </form>
-
+    <button type="button" name="button" ng-click="musicianSelect()">Let's go!</button>
 </div>
 </div>

@@ -1,9 +1,7 @@
 body {
-  /*background: url(https://philspector.files.wordpress.com/2010/06/capsula.jpg) no-repeat 50% 20% fixed;*/
   background: transparent url("https://s3.sonicbids.com/marketing/homepage.jpg") 50% 50% no-repeat;
-  background-size: cover;
-  color: #fff;
-  position: relative; }
+  background-size: auto;
+  color: #fff; }
 
 .loginpage {
   margin-left: 36%; }
