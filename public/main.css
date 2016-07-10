@@ -1,7 +1,9 @@
 body {
-  background: url(http://cliparts.co/cliparts/6iy/5GB/6iy5GBBnT.jpg) no-repeat 50% 20% fixed;
+  /*background: url(https://philspector.files.wordpress.com/2010/06/capsula.jpg) no-repeat 50% 20% fixed;*/
+  background: transparent url("https://s3.sonicbids.com/marketing/homepage.jpg") 50% 50% no-repeat;
   background-size: cover;
-  background-position: bottom; }
+  color: #fff;
+  position: relative; }
 
 .loginpage {
   margin-left: 36%; }
@@ -10,28 +12,160 @@ body {
   width: 44%;
   font-size: 20px;
   border-radius: 7px;
-  border: solid 2px #b400ff;
+  border: solid 2px #f60;
   text-align: center;
-  font-family: 'Roboto Slab', serif;
-  opacity: .7; }
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .loginpage button {
   margin-left: 15%;
   margin-top: 1%;
   width: 15%;
-  font-family: 'Roboto Slab', serif;
-  border: solid 1px #b400ff;
-  background-color: #b400ff;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f60;
+  border: solid 1px #d65600;
   color: white;
   border-radius: 10px;
-  font-size: 15px;
-  opacity: .7; }
+  font-size: 15px; }
 
 .loginpage button:hover {
   transform: scale(1.1); }
 
 .loginpage h1 {
-  margin-left: -16%;
-  font-family: 'Roboto Slab', serif;
-  font-size: 90px;
-  margin-top: -80px; }
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 50px;
+  color: white;
+  font-size: 50px;
+  letter-spacing: -.05em;
+  line-height: 1em;
+  margin-top: 0;
+  padding: 75px 0 0;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+
+.loginpage h3 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 26px;
+  margin: 15px 0;
+  color: rgba(255, 255, 255, 0.8); }
+
+.hidden {
+  display: none; }
+
+.logo {
+  color: #f60;
+  font-size: 30px;
+  font-family: 'Dosis', sans-serif;
+  margin-left: 1005px;
+  margin-top: -52px;
+  text-shadow: 1px 1px 1px #000; }
+
+.logo:hover {
+  background-color: #00bcd4; }
+
+.bandmanager h2 {
+  color: #f60;
+  font-size: 20px;
+  line-height: 1.42857;
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.bandmanager h4 {
+  color: white;
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.bandmanager select {
+  background-color: #f60;
+  color: white;
+  width: 55%;
+  border: solid 1px #d65600;
+  font-size: 11px;
+  margin-left: 20%; }
+
+.musician h2 {
+  color: #f60;
+  font-size: 20px;
+  line-height: 1.42857;
+  text-align: center;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+.musician h4 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: center; }
+
+.bandmanager {
+  border: solid 2px #fff;
+  display: inline-block;
+  width: 50%;
+  height: 230px;
+  background: #000;
+  opacity: .7;
+  margin-right: 14px; }
+
+.bandmanager:hover {
+  border: solid 3px #f60; }
+
+.musician {
+  border: solid 2px #fff;
+  display: inline-block;
+  width: 50%;
+  height: 230px;
+  background: #000;
+  opacity: .7; }
+
+.musician:hover {
+  border: solid 3px #f60; }
+
+.musician form {
+  font-size: 15px;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center; }
+
+.homepagediv {
+  width: 70%;
+  margin-left: 16%;
+  display: inline-flex;
+  margin-top: 5%; }
+
+.homepageheader {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 50px;
+  color: white;
+  font-size: 50px;
+  letter-spacing: -.05em;
+  line-height: 1em;
+  margin-top: 0;
+  padding: 75px 0 0;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+
+ul {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00bcd4; }
+
+li {
+  float: left; }
+
+.logopic {
+  width: 5%;
+  float: right;
+  margin-top: -60px;
+  margin-right: 96px;
+  opacity: .7;
+  z-index: -2; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111; }

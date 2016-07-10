@@ -1,26 +1,35 @@
+<!-- <h1 class="homepageheader">Gig booking and more</h1> -->
+<div class="homepagediv">
 <div class="bandmanager">
+  <h2>I book gigs </h2>
+  <h4>Tell us what type of musician you're looking for.</h4>
+    <select ng-click="bandManagerSelect()">
+    <option ng-load="bandmanager" value="leadGuitarist">Lead Guitarist</option>
+    <option value="drummer" selected>Drummer</option>
+    <option value="backupGuitarist">Backup Guitarist</option>
+    <option value="leadGuitarist">Lead Guitarist</option>
+    <option value="backupSinger">Backup Singer</option>
+    <option value="bassist">Bassist</option>
+    <option value="tambourine">Tambourine</option>
+    <option value="cowBellPlayer">Cowbell Player</option>
+    <option value="pianist">Pianist</option>
+  </select>
 
 </div>
-<h2>I'm Looking for a </h2> <select ng-click="bandManagerSelect()">
-  <option ng-load="bandmanager" value="leadGuitarist">Lead Guitarist</option>
-  <option value="drummer" selected>Drummer</option>
-  <option value="backupGuitarist">Backup Guitarist</option>
-  <option value="leadGuitarist">Lead Guitarist</option>
-  <option value="backupSinger">Backup Singer</option>
-  <option value="bassist">Bassist</option>
-  <option value="tambourine">Tambourine</option>
-  <option value="cowBellPlayer">Cowbell Player</option>
-  <option value="pianist">Pianist</option>
-</select>
-<h2>I'm a </h2>
-  <form action="" ng-click="musicianSelect()">
-  <input type="checkbox" value="leadGuitarist">Lead Guitarist
-  <input type="checkbox" value="drummer">Drummer
-  <input type="checkbox" value="backupGuitarist">Backup Guitarist
-  <input type="checkbox" value="leadGuitarist">Lead Guitarist
-  <input type="checkbox" value="backupSinger">Backup Singer
-  <input type="checkbox" value="bassist">Bassist
-  <input type="checkbox" value="tambourine">Tambourine
-  <input type="checkbox" value="cowBellPlayer">Cowbell Player
-  <input type="checkbox" value="pianist">Pianist
-  </form>
+<div class="musician">
+  <h2>I'm a musician </h2>
+  <h4>Tell us what type of gig you're looking for.</h4>
+    <form action="" ng-click="musicianSelect()">
+    <input type="checkbox" value="leadGuitarist">Lead Guitarist
+    <input type="checkbox" value="drummer">Drummer
+    <input type="checkbox" value="backupGuitarist">Backup Guitarist
+    <input type="checkbox" value="leadGuitarist">Lead Guitarist
+    <input type="checkbox" value="backupSinger">Backup Singer
+    <input type="checkbox" value="bassist">Bassist
+    <input type="checkbox" value="tambourine">Tambourine
+    <input type="checkbox" value="cowBellPlayer">Cowbell Player
+    <input type="checkbox" value="pianist">Pianist
+    </form>
+
+</div>
+</div>
