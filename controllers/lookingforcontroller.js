@@ -5,6 +5,7 @@ module.exports = function(app) {
       $scope.bookClick = function() {
         console.log("clicking book");
         $location.path('/booking');
+        
       }
 
     }]);

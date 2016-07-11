@@ -1,7 +1,7 @@
 <div class="lookingforpage">
   <h3>Here's a list of available musician's for your gig:</h3>
-  <ul ng-repeat="person in musicians">
-    <li >Name: {{person.name}} <br> Rating: {{person.rating}} <br> Hourly Rate: ${{person.hourlyRate}} <br> Contact: {{person.email}} <br> <button ng-click="bookClick() "type=button" name="button">Book!</button> </li>
+  <ul ng-repeat="person in musicians | orderBy:'-rating'">
+    <li >Name: {{person.name}} <br> Rating: {{person.rating}}✮ <br> Hourly Rate: ${{person.hourlyRate}} <br> Contact: {{person.email}} <br> <button ng-click="bookClick() "type=button" name="button">Book!</button> </li>
   </ul>
 
 </div>

@@ -1,3 +1,18 @@
 <div class="bookingpage">
-<h1 ng-repeat="person in musicians">Congrats! You've booked {{person.name}}</h1>
+<h1 ng-repeat="person in musicians | limitTo: 1">Congrats! {{user}} You've booked {{person.name}}</h1>
+<h3>Enter your contact information so that they can get in touch. You won't be charged until your booking is confirmed.</h3>
+<div class="finalinfo">
+  <input type="text" name="name" value="" placeholder="Full Name">
+  <input type="text" name="name" value="" placeholder="Phone Number">
+  <input type="text" name="name" value="" placeholder="Email Address">
+  <br>
+  <input type="text" name="name" value="" placeholder="Credit Card">
+  <input type="date" data-date-inline-picker="true" class="calendar"/>
+  <br>
+  <button type="button" name="button"> All done</button>
+
+</div>
+
+
+
 </div>

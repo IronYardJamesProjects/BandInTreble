@@ -143,7 +143,7 @@ body {
     padding: 75px 0 0;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-ul {
+nav ul {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     list-style-type: none;
     margin: 0;
@@ -196,6 +196,112 @@ li a:hover {
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .lookingforpage:hover {
-  border: solid 2px #f60;
+    border: solid 2px #f60;
+}
+.lookingforpage ul {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    text-align: center;
+    margin-left: 35%;
+    margin-bottom: 5%;
+}
+.lookingforpage li:hover {
+    color: #00bcd4;
+}
+.lookingforpage li {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.lookingforpage button:hover {
+    background-color: #00bcd4;
+    transform: scale(1.1);
+}
+.lookingforpage button {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background-color: #fff;
+}
+.availablepage {
+    width: 75%;
+    text-align: center;
+    border: solid 2px #fff;
+    height: 400px;
+    overflow: scroll;
+    margin-left: 13%;
+    background-color: black;
+    opacity: .7;
+    margin-top: 5%;
+}
+.availablepage:hover {
+    border: solid 2px #f60;
+}
+.availablepage h3 {
+    margin-top: -48px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-size: 50px;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    padding: 75px 0 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.bookingpage {
+    width: 75%;
+    text-align: center;
+    height: 300px;
+    overflow: scroll;
+    margin-left: 13%;
 
+    margin-top: 5%;
+}
+.bookingpage h1 {
+    margin-top: -48px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-size: 50px;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    padding: 75px 0 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.finalinfo {
+    width: 100%;
+    display: block;
+}
+.finalinfo input {
+    border-radius: 5px;
+    font-size: 15px;
+    border: solid 2px #00bcd4;
+}
+.finalinfo button {
+    font-size: 20px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.finalinfo button:hover {
+    background-color: #00bcd4;
+    transform: scale(1.1);
+}
+.bookingpage h3 {
+    margin-top: -48px;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: -.05em;
+    line-height: 1em;
+    margin-top: -17px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.calendar {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
